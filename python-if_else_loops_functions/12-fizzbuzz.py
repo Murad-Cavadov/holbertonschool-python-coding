@@ -10,6 +10,5 @@ def fizzbuzz():
         else:
             print("{}".format(i), end="")
         
-        # Sonuncu elementdən başqa hər birindən sonra boşluq qoyuruq
-        if i < 100:
-            print(" ", end="")
+        # Hər bir elementdən sonra, istisnasız boşluq çap edirik
+        print(" ", end="")
