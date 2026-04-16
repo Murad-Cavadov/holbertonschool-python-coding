@@ -2,7 +2,7 @@
 if __name__ == "__main__":
     import sys
 
-    # sys.argv[0] skriptin adıdır, ona görə len(sys.argv) - 1 arqumentlərin sayıdır
+    # sys.argv[0] skriptin adidir
     n = len(sys.argv) - 1
 
     if n == 0:
