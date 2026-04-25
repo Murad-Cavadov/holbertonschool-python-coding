@@ -1,25 +1,18 @@
 #!/usr/bin/python3
-"""
-Module 8-square
-Defines a class Square that inherits from Rectangle
-"""
+"""Module 8-square"""
 Rectangle = __import__('7-rectangle').Rectangle
 
 
 class Square(Rectangle):
-    """A class Square that inherits from Rectangle"""
+    """Class Square"""
+    __init_subclass__ = None
 
     def __init__(self, size):
-        """
-        Initialize a new Square.
-
-        Args:
-            size (int): The size of the square's side.
-        """
+        """Initialize"""
         self.integer_validator("size", size)
         self.__size = size
         super().__init__(size, size)
 
     def area(self):
-        """Returns the area of the square."""
+        """Returns area"""
         return self.__size ** 2
