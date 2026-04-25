@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-"""Bu modul sadə bir Square (Kvadrat) sinfini təyin edir."""
+"""Defines a class Square."""
 
 
 class Square:
-    """Kvadratı təmsil edən sinif."""
+    """Represent a square."""
 
     def __init__(self, size):
-        """Yeni bir Kvadrat obyekti yaradır.
-        
+        """Initialize a new square.
+
         Args:
-            size (int): Kvadratın ölçüsü.
+            size (int): The size of the new square.
         """
         self.__size = size
